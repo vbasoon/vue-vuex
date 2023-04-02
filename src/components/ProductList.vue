@@ -28,6 +28,7 @@ export default {
   // },
   created(){
     shop.getProducts(products => {
+      store.commit('setProducts', products)
       // store.state.products = products
     })
   },
