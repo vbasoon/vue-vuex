@@ -28,7 +28,7 @@ export default {
   // },
   created(){
     shop.getProducts(products => {
-      store.state.products = products
+      // store.state.products = products
     })
   },
   name: 'ProductList',
